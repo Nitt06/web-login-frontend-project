@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://wallpapers.com/images/hd/aesthetic-computer-4k-c9qdhe02pr84wh3a.jpg);
+    background-color: #f4f4f4;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px; 
+    padding: 3rem;
+    background-color:transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+    border-radius: 8px;
+}
+.wrapper h1 {
+    color: #fff;
+    font-size: 300%;
+    margin-bottom: 20%;
+}
+.a {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input[type="box"], input[type="password"] {
+    padding: 0.5rem;
+    align-items: center;
+    width: 100%;
+    max-width: 350px; 
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 0 auto; 
+}
+
+button {
+    padding: 0.5rem;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+a {
+    text-align: center;
+    margin-top: 1rem;
+    color: #333;
+    text-decoration: none;
+}
+
+.a a {
+    color: #ffffff;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+input[type="checkbox"] {
+    margin-right: 0.5rem;
+    color: #f4f4f4;
+}
+
+label[for="remember_me"] {
+    color: #f4f4f4;
+    display: inline-block;
+    vertical-align: middle;
+}
